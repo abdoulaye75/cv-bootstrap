@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: O; }
+
+* {
+  font-family: 'Source Sans Pro', sans-serif; }
+
+nav a {
+  color: #fff;
+  font-size: 24px; }
+nav a:hover {
+  text-decoration: none; }
+
+.main {
+  border: 1px solid #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  margin-bottom: 100px; }
+  .main h1 {
+    border: 1px solid #5E4586;
+    background-color: #5E4586;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold; }
+  .main .aboutme {
+    margin-bottom: 10px;
+    padding: 20px;
+    background-image: url("img/nature.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; }
+    .main .aboutme img {
+      border: 3px solid black; }
+    .main .aboutme li, .main .aboutme a {
+      font-size: 24px;
+      color: #fff;
+      font-weight: bold; }
+    .main .aboutme a {
+      text-decoration: underline; }
+  .main .coordonnees {
+    border: 3px solid lightblue; }
+  .main .experience strong, .main .formation strong {
+    border-radius: 100%;
+    background-color: #334455;
+    color: #fff;
+    padding: 10px; }
+  .main .experience p, .main .formation p {
+    font-weight: bold;
+    margin-top: 20px;
+    color: #000; }
+  .main .formation {
+    background-image: url("img/certification.jpg"); }
+  .main .experience {
+    background-image: url("img/work.png");
+    background-position: center; }
+    .main .experience p {
+      font-weight: bold;
+      font-size: 24px; }
+    .main .experience li {
+      color: #000;
+      font-size: 18px; }
+  .main .skills {
+    background-image: url("img/tag.jpeg"); }
+    .main .skills img {
+      width: 100px;
+      height: 100px; }
+    .main .skills li {
+      margin-bottom: 10px; }
+    .main .skills .fa-star {
+      color: yellow; }
+    .main .skills .fa-star-o {
+      color: #fff; }
+    .main .skills .fa-star, .main .skills .fa-star-o {
+      font-size: 24px; }
+  .main .hobbies li {
+    color: #000;
+    font-size: 18px; }
+
+/*# sourceMappingURL=cv.css.map */
