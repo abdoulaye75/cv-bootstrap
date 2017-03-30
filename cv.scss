@@ -1,0 +1,115 @@
+body {
+	margin: 0;
+	padding: O;
+}
+
+* {font-family: 'Source Sans Pro', sans-serif;}
+
+$purple: #5E4586;
+$white: #fff;
+$black: #000;
+$bold: bold;
+$font-size: 24px;
+
+nav {
+	a {
+		color: $white;
+		font-size: $font-size;
+	}
+
+	a:hover {text-decoration: none;}
+}
+
+.main {
+	border: 1px solid $white;
+	border-radius: 20px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 20px;
+	margin-bottom: 100px;
+
+	h1 {
+		border: 1px solid $purple;
+		background-color: $purple;
+		color: $white;
+		padding: 10px;
+		font-weight: $bold;
+	}
+
+	.aboutme {
+		margin-bottom: 10px;
+		padding: 20px;
+		background-image: url("img/nature.jpeg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+
+		img  {border: 3px solid black;}
+
+		li, a {
+			font-size: $font-size;
+			color: $white;
+			font-weight: $bold;
+		}
+
+		a {text-decoration: underline;}
+	}
+
+	.coordonnees {
+		border: 3px solid lightblue;
+	}
+
+	.experience, .formation {
+		strong {
+			border-radius: 100%;
+			background-color: #334455;
+			color: $white;
+			padding: 10px;
+		}
+
+		p {
+			font-weight: $bold;
+			margin-top: 20px;
+			color: $black;
+		}
+	}
+
+	.formation {background-image: url("img/certification.jpg");}
+
+	.experience {
+			background-image:url("img/work.png");
+			background-position: center;
+
+			p {
+				font-weight: $bold;
+				font-size: $font-size;
+			}
+
+			li {
+				color: $black;
+				font-size: 18px;
+			}
+		}
+
+	.skills {
+		background-image: url("img/tag.jpeg");
+
+		img {
+			width: 100px;
+			height: 100px;
+		}
+
+		li {margin-bottom: 10px;}
+
+		.fa-star {color: yellow;}
+
+		.fa-star-o {color: $white;}
+
+		.fa-star, .fa-star-o {font-size: $font-size;}
+	}
+
+	.hobbies {
+		li {
+			color: $black;
+			font-size: 18px;
+		}
+	}
+}
